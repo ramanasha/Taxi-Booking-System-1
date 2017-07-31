@@ -1,0 +1,308 @@
+/*
+  Created by : Ashish Chandrakant Naik
+  2013 - 2017
+  St. francis Institute of tech
+
+*/
+.number{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: arial;
+
+}
+.glyphicon{
+
+
+color: #E89700;
+
+}
+.logo {
+display: block;
+margin: 25px 0 30px 30px;
+background: black;
+width:120px;
+border-radius: 80px;
+}
+.login {
+font-family: verdana;
+font-size: 15px;
+background: none;
+margin-right: 15px;
+color: black;
+text-decoration: none;
+}
+.login:hover{
+   border-bottom: 5px solid #FAC000;
+  padding-bottom: 10px;
+text-decoration: none;
+}
+.selected {
+border-bottom: 5px solid #FAC000;
+ padding-bottom: 10px;
+ text-decoration: none;
+}
+#log{
+ text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    margin: 0px;
+}
+#log:hover{
+  text-decoration: none;
+}
+u{	
+	text-decoration: none;	
+	border-bottom: 3px solid #D4DB04;
+	padding-bottom: 5px;
+}
+
+
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;    
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+}
+
+.menu {
+    display: none; 
+    width: 100%;
+    padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    lin
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+    border
+}
+.cityselect{
+
+	color: black;
+	font-weight: bold;
+	font-size:17px;
+	font-family: verdana;
+  margin-left: 15px ; 
+}
+
+#sbar{
+  
+	border-radius: 25px;
+
+}
+.sbutton {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffdd03);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffdd03);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffdd03);
+  background-image: -o-linear-gradient(top, #ffffff, #ffdd03);
+  background-image: linear-gradient(to bottom, #ffffff, #ffdd03);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0 15px 15px 0 ;
+  font-family: Arial;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  padding:4px;
+  text-decoration: none;
+  margin-left: -6pxpx;
+   border-style: none;
+ 
+}
+
+.sbutton:hover{
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5b800);
+  background-image: -moz-linear-gradient(top, #ffffff, #f5b800);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5b800);
+  background-image: -o-linear-gradient(top, #ffffff, #f5b800);
+  background-image: linear-gradient(to bottom, #ffffff, #f5b800);
+  text-decoration: none; border-style: none;
+}
+.sbutton:focus {outline:0; border-style: none;}
+
+input[type=radio]:hover{
+text-decoration: underline;
+color: red;
+width: 50px;
+}
+
+.str h2{
+  color: slategray;
+}
+.str b{
+  color: #E8BF1C;
+}
+
+.rect{
+
+
+ background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,168,76,1)), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C */
+  width  : 0px - 800px;
+  width : 75%;
+   height : 125px - 200px;
+   height: 50%;
+   margin : 140px auto 120px auto ; 
+   text-align: center;
+   padding-top:10px;
+   font-family: Comic Sans MS;
+   font-weight: bold;
+   border: 10px solid rgba(0, 0, 0, .9);
+  
+    outline: 2px 2px #ff0000; 
+
+}
+.intro-header {
+    margin: -250px 0 0 0;
+    background: url(taxi1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+
+}
+.intro-header .row center {
+  margin-top: 250px;
+}
+
+.yellow{
+background: #febf01; /* Old browsers */
+background: -moz-linear-gradient(left,  #febf01 0%, #000000 40%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#febf01), color-stop(40%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #febf01 0%,#000000 40%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #febf01 0%,#000000 40%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #febf01 0%,#000000 40%); /* IE10+ */
+background: linear-gradient(to right,  #febf01 0%,#000000 40%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+
+	height: 50px;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin:-40px 0 0 0 ; 
+	color: white;
+  display: block;
+}
+.abtus{
+
+  background: white;
+  height: 950px - 1000000px;
+  height: 81%;
+  width: 100%;
+}
+
+.midtxt{
+  font-size: 25px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  color:#D6B109;
+}
+  #mid{
+  margin-bottom: 5px;
+  width: 150px;
+  height: 4px;
+  background: #CFCECA;
+}
+.container{
+
+  margin: 0px;
+}
+.abtusimg{
+
+  max-width: 350px;
+  width: 60%;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin-right: 220px;
+  float: left;
+  border: 5px solid #DDD;
+
+}
+.abtusimg-inverse{
+
+  max-width: 350px;
+  width: 60%;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin-left: 220px;
+  float: right;
+  border: 5px solid #DDD;
+}
+.backt{
+
+  background: #C2CCCB; 
+  max-height: 5000px;
+  height: 50%px;
+}
+.box{
+  margin: 10px 0 10px 20px;
+  padding:0 200px 0 200px;
+}
+
+.foot{
+
+  background: white;
+  max-height: 150px;
+  height: 50%;
+}
+.foot-img{
+
+  float: right;
+ border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+
+}
+.row{
+  padding: 0 25px 0 25px;
+}
+.team{
+  margin: 25px 0 20px 0;
+}
+
+#tabs ul li{
+  text-decoration: none;
+  list-style: none;
+ display: inline-block; 
+ font-size: 25px;
+ border-bottom: yellow;
+}
+
+#tabs a{
+  text-decoration: none;
+}
+ul.ui-autocomplete.ui-menu{
+background: white;
+list-style-type: none;
+width: 425px;
+margin: 0px;
+padding: 0px;}
+

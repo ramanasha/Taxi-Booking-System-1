@@ -1,0 +1,32 @@
+/*
+  Created by : Ashish Chandrakant Naik
+  2013 - 2017
+  St. francis Institute of tech
+
+*/
+body{
+	background: rgba(0,0,0,0.1);
+}
+	a:link{
+	text-decoration: none;
+	color:darkorange;
+	font-weight: bold;
+	font-family: Cambria Math;
+	font-size: 20px;
+	margin-bottom: 3px;
+	cursor:none;
+}
+a:visited{
+	color:darkorange;
+}a:hover{
+	color:blue;
+	max-width: 100px;
+}
+ span {
+    color: red; 
+  }
+.title{
+	font-size: 20px;
+}ul{
+	list-style-type:none; 
+}
